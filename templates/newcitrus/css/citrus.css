@@ -1,0 +1,406 @@
+
+
+body{
+	background: url(http://www.irscstudentweb.org/~J13006325/joomla/templates/newcitrus/images/background4.jpg) no-repeat center center fixed !important; 	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover !important;
+	padding:0 !important;
+	margin:0 !important;
+	overflow-y:scroll;
+}
+#logo{position:relative;top:4px;}
+.citrus-container{
+	width:70%;
+	margin:0 auto;
+}
+.row-fluid{
+	background-color:#fff;
+}
+
+.jumbotron0{
+	background-color:#fff;
+	text-align:center;
+	padding-top:0px;padding-bottom:0px;
+	position:relative;
+	z-index:4;
+	border-bottom:1px solid #000;
+	height:65px;
+	
+}
+.jumbotron0 img{width:240px;}
+.bottomli a{color:#000;}
+.news-blog-header{
+	border-radius:15px;	
+}
+.item img{
+	min-height:200px;
+}
+
+
+@media only screen and (max-width: 767px) {
+	.citrus-container{
+		width:100%;
+	}
+		.solutions{
+		font-size:1.1em;
+		text-align:center;
+		padding:10px 10px !important;
+	}
+	.portraits{
+		margin-bottom:15px !important;
+	}
+	
+.background-box-outer{
+	width:100%;top:0;position:absolute;top:0px;z-index:2;
+
+}
+.background-box-inner{
+	position:relative;background-color:#fff;height:100vh;width:100%;margin: 0 auto;overflow:hidden;
+
+}	
+	.news-blog > div{
+		width:100% !important;
+		margin:auto;
+
+	}
+
+	
+}
+
+.toplist{
+	margin-bottom:0 !important;
+	background-color:#fff;
+}
+@media only screen and (max-width: 980px) {
+	.hiddenc{margin-top:-271px;}
+	#citrus-menu{
+		position:relative;
+		transition:top 1s,margin-top 1s !important;
+	}
+
+}
+@media only screen and (min-width: 980px) {
+	.toplist li{
+		width:14.2%;
+		text-align:center;
+	}
+	.hiddenc{top:20px !important;margin-top:-287px;
+			transition:top 1s, margin-top 10s !important;
+		}
+	#citrus-menu{
+		position:absolute !important;
+		width:70%;
+		top:61px;
+		z-index:3;
+		transition:top 1s;	
+		
+	}
+}
+
+@media only screen and (min-width: 816px) {
+
+	.news-blog > div{
+		width:90% !important;
+		margin:auto;
+
+	}
+
+
+	.background-box-outer{
+		width:100%;top:0;position:absolute;top:0px;z-index:2;
+
+	}
+	.background-box-inner{
+		position:relative;background-color:#fff;height:100vh;width:70%;margin: 0 auto;overflow:hidden;
+	}
+}
+
+.citrus-toggle{
+	font-size:1.0em !important;
+}
+
+.active{
+	background-color:#fa0 !important;
+}
+
+@media only screen and (max-width:530px){
+	#socialmediacontainer{
+		top:0px !important;
+		right:6px !important;
+	}
+	#socialmediacontainer a img{
+		margin:3px !important;
+		width:27px !important;
+		margin-bottom:0px;
+		display:block;
+	}
+	.twitter{
+	}
+	.container{
+		min-width:255px;
+	}
+	#logo{
+		transform:scale(.75,.75);
+		margin-left:25px;
+	}
+}
+@media only screen and (max-width:348px){
+	#logo{
+		transform:scale(.65,.65);
+	}
+}
+
+
+#content{
+	padding:0px;
+
+
+}
+.citrus-slide{
+	width:100%;
+	border-bottom: solid 1px #000;
+	border-left: solid 1px #000;
+	border-right: solid 1px #000;
+	box-sizing:border-box;
+}
+#socialmediacontainer{position:absolute;top:8px;right:8px;}
+#socialmediacontainer img{width:35px;margin-top:7px;}
+
+#hamburger1{width:35px;height:20px;padding:7px;position:absolute;left:13px;top:15px;cursor:pointer;border-radius:3px;border: solid 1px #000;}
+.main-carousel{z-index:1;}
+.solutions{
+	font-size:1.2em;
+	text-align:center;
+	padding:5px 75px 15px 75px;
+	box-sizing:border-box;
+	line-height:1.5em;
+
+}
+.carousel-caption{
+	background-color:rgba(255,255,255,.7) !important;
+}
+.carousel-caption h4{
+	color:rgb(0,0,0) !important;
+}
+.carousel-caption p{
+	color:rgb(0,0,0) !important;
+}
+
+.portraits{
+	text-align:center;background-color:#F0F0F0;border-radius:15px;
+}
+.portraits > div{
+	border:2px solid rgba(0,0,0,0);
+	box-sizing:border-box;
+	padding:15px 5px 15px 5px;
+	border-radius:15px;
+	transition: border 1s, box-shadow 1s;
+}
+
+.toplist{
+	border-bottom: solid 1px #000;
+}
+.toplist > li a:hover{
+	color:rgb(0,170,125) !important;
+
+}
+.toplist > li a{
+	color:#000 !important;
+
+}
+
+.navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {
+background-color:#fff !important;
+}
+.dropdown-menu{
+	background-color:#fff !important;
+	padding:0px !important;
+	border-radius:0px;
+	margin-top:0px;
+	margin-left:-1px;
+	border:solid 1px #000;
+	width:100% !important;
+	font-weight:400 !important;
+}
+@media (max-width: 979px){
+	.nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a {
+
+		font-weight:400 !important;
+	}
+}
+.news-blog{
+	text-align:center;padding:3px;
+}
+.news-blog > div{
+width:100%;padding-bottom:15px;width:90%;margin:0 auto;
+}
+.landing-page-portrait{
+	background-color:rgba(254,248,233,1);
+
+}
+.photo{
+	margin:0 auto;padding:0;width:45%;padding-bottom:40%;background-color:#fff;border-radius:50%;border:solid 2px rgba(255,0,0,0);transition:border 1s;
+}
+.photo:hover{
+	border:solid 2px #000;
+	
+}
+.portraits > div:hover{border:solid 2px #000;box-shadow: 1px 1px 12px 3px #ccc; }
+.portraits:hover .citrus-description{}
+.portraits:hover .citrus-button{border:solid 2px #000;}
+.portraits:hover .photo{border:solid 2px #000;}
+
+
+
+
+.citrus-button{
+	width:76%;margin:0 auto;background-color:#fa0;border-radius:15px;font-size:1.1em;font-weight:bold;margin-top:10px;padding:3px;
+	box-sizing:border-box !important;
+	border: 2px solid rgba(0,0,0,0);
+	transition:border 1s;
+}
+.news-blog-header{
+	transition: color .5s;
+}
+.news-blog-header:hover{
+	color:rgb(0,170,125) !important;
+}
+.consumer{
+background-image:url('http://www.irscstudentweb.org/~J13006325/joomla/templates/newcitrus/images/girl1.jpg');background-size: 100% 100%;
+}
+.grower{
+background-image:url('http://www.irscstudentweb.org/~J13006325/joomla/templates/newcitrus/images/farmer.jpg');background-size: 100% 100%;
+}
+.scientist{
+background-image:url('http://www.irscstudentweb.org/~J13006325/joomla/templates/newcitrus/images/scientist.jpg');background-size: 100% 100%;
+}
+
+.citrus-description{width:70%;margin:0 auto;font-size:1.0em;line-height:1.3em;font-weight:500;text-align:center;margin-top:10px;transition:width .5s;}
+.quote-box{width:100% !important; margin:0 auto !important;padding:0;display:table;line-height:3.2em;/*background-image:url('citrusfruit.jpg');background-size:100% 140%;*/}
+.quote-box > div{width:100%;display:table-cell;vertical-align:middle;text-align:center;height:100%;font-size:3em;font-weight:100;}
+.vertical-align{
+    text-align: center;
+    white-space: nowrap;
+
+	overflow:auto;
+	width:100%;
+	margin:0;
+	padding:0;	
+		position:absolute;
+	
+}
+.vertical-align:before{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 100vh;
+	margin-right:-4px;
+	text-align:center;
+
+}
+.something-semantic {
+  width: 100%;
+  height:100%;
+  position:relative;  text-align: center;
+}
+.something-else-semantic {
+	top:15%;
+	z-index:2;
+	position:absolute;
+	width:70%;
+	left:13%;
+	font-weight:800;
+	padding:0;
+	margin:0;
+}
+
+.blog{	
+	padding:35px;
+	box-sizing:border-box;
+}
+.item-page{	
+	padding:35px;
+		box-sizing:border-box;
+}
+.categories-list{	
+	padding:35px;
+		box-sizing:border-box;
+}
+.contact-category{	
+	padding:35px;
+		box-sizing:border-box;
+}
+.contact{	
+	padding:35px;
+		box-sizing:border-box;
+}
+
+.moduletable{
+	text-align:left;
+}
+
+.latestnews{
+
+    list-style-type: none;
+
+}
+.latestnews li{
+	font-weight:700;
+	font-size:1.1em;
+	line-height:1.5em;
+}
+
+.tab-pane{
+	background-color:#fff !important;
+
+}
+
+[itemprop="articleBody"]{
+	text-align:justify !important;
+
+}
+
+.readmore{
+	margin-top:15px;
+}
+
+
+
+
+/*IMPORT*/
+
+
+
+.navbar-inverse .nav li.dropdown.open>.dropdown-toggle,.navbar-inverse .nav li.dropdown.active>.dropdown-toggle,.navbar-inverse .nav li.dropdown.open.active>.dropdown-toggle{background-color:transparent !important;color:#ffffff;}
+
+
+@media only screen and (min-width: 767px) {
+
+
+	.navbar-nav {
+		margin: 0 auto;
+		display: table;
+		table-layout: auto;
+		float: none;
+		width: 100%;
+	}
+	.bottomlist>li {
+		display: table-cell;
+		float: none;
+		text-align: center;
+	}
+	.bottomli{
+		width:150px;
+	}
+
+}
+
+.nav li a{font-size:1.1em;}
+.dropdown li a:hover{
+color:rgb(0,170,125) !important;
+	background:none !important;
+}
+
