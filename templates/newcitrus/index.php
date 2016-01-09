@@ -80,7 +80,7 @@ else
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>">
 <head>
-
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<jdoc:include type="head" />
 	<?php // Use of Google Font ?>
@@ -94,6 +94,7 @@ else
 	<?php endif; ?>
 	<?php // Template color ?>
 	<?php if ($this->params->get('templateColor')) : ?>
+	
 	<style type="text/css">
 		body.site
 		{
@@ -111,6 +112,7 @@ else
 		<script src="<?php echo JUri::root(true); ?>/media/jui/js/html5.js"></script>
 	<![endif]-->
 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template;?>/css/citrus.css" type="text/css" />
+<link rel="shortcut icon" type="image/x-icon" href="https://www.citrusgreening.org/img/citrusgreening/cg_logo_icon.png">
 </head>
 
 <body class="site <?php echo $option
