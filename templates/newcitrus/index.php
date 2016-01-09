@@ -145,26 +145,19 @@ else
 						<a class = "white dropdown-toggle" data-toggle = "dropdown" href = "#">About<i class = "caret"></i></a>
 						<ul class = "dropdown-menu">
 							<li><a class="white" href = "#">About Us</a></li>
-							<li><a class="white" href = "#">Contact</a></li>
-							<li><a class="white" href = "#">Twitter</a></li>
-							<li><a class="white" href = "#">Facebook</a></li>
+							<li><a class="white" href = "#">Partners</a></li>
+							<li><a class="white" href = "http://irscstudentweb.org/~J13006325/joomla/index.php/contact-us">Contact</a></li>
+							<li><a class="white" href = "https://twitter.com/citrusgreening">Twitter</a></li>
+							<li><a class="white" href = "https://www.facebook.com/citrusgreening">Facebook</a></li>
 						</ul>
 					</li>
 					<li><a class="white" href = "http://irscstudentweb.org/~J13006325/joomla/">Consumers</a></li>
 					<li><a class="white" href = "index.php?option=com_contact&view=categories&id=0">Growers</a></li>
+					<li><a class="white" href = "https://www.citrusgreening.org">Research</a></li>
 
-					<li class = "dropdown">
-						<a class = "white dropdown-toggle" data-toggle = "dropdown" href = "#">Research<i class = "caret"></i></a>
-						<ul class = "dropdown-menu">
-							<li><a class="white" href = "#">Pathogen</a></li>
-							<li><a class="white" href = "#">Vector</a></li>
-							<li><a class="white" href = "#">Host</a></li>
-							<li><a class="white" href = "#">Database</a></li>
-						</ul>
-					</li>
-					<li><a class="white" href = "http://irscstudentweb.org/~J13006325/joomla/index.php/news">Blog</a></li>
-					<li><a class="white" href = "#">Partners</a></li>
-					<li><a class="white" href = "http://irscstudentweb.org/~J13006325/joomla/index.php/citrus-blog">FAQ</a></li>
+
+					<li><a class="white" href = "http://irscstudentweb.org/~J13006325/joomla/index.php/blog">Blog</a></li>
+					<li><a class="white" href = "http://irscstudentweb.org/~J13006325/joomla/index.php/news">News</a></li>
 				</ul>
 			</div>
 	</div>
