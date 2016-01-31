@@ -153,8 +153,20 @@ else
 							<li><a class="white" href = "https://www.facebook.com/citrusgreening">Facebook</a></li>
 						</ul>
 					</li>
-					<li><a class="white" href = "http://irscstudentweb.org/~J13006325/joomla/">Consumers</a></li>
-					<li><a class="white" href = "index.php?option=com_contact&view=categories&id=0">Growers</a></li>
+					<li class = "dropdown">
+						<a class = "white dropdown-toggle" data-toggle = "dropdown" href = "#">Consumers<i class = "caret"></i></a>
+						<ul class = "dropdown-menu">
+							<li><a class="white" href = "#">Statistics</a></li>
+							<li><a class="white" href = "#">Links</a></li>
+						</ul>
+					</li>
+					<li class = "dropdown">
+						<a class = "white dropdown-toggle" data-toggle = "dropdown" href = "#">Growers<i class = "caret"></i></a>
+						<ul class = "dropdown-menu">
+							<li><a class="white" href = "#">Statistics</a></li>
+							<li><a class="white" href = "#">Links</a></li>
+						</ul>
+					</li>
 					<li><a class="white" href = "https://www.citrusgreening.org">Research</a></li>
 
 

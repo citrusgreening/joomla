@@ -10,7 +10,7 @@ body{
 	margin:0 !important;
 	overflow-y:scroll;
 }
-#logo{position:relative;top:4px;}
+#logo{position:relative;top:4px;width:195px;}
 .citrus-container{
 	width:70%;
 	margin:0 auto;
@@ -168,7 +168,7 @@ body{
 #socialmediacontainer{position:absolute;top:8px;right:8px;}
 #socialmediacontainer img{width:35px;margin-top:7px;}
 
-#hamburger1{width:35px;height:20px;padding:7px;position:absolute;left:13px;top:15px;cursor:pointer;border-radius:3px;border: solid 1px #000;}
+#hamburger1{width:30px;height:20px;padding:7px;position:absolute;left:13px;top:15px;cursor:pointer;border-radius:3px;border: solid 1px #000;}
 .main-carousel{z-index:1;}
 .solutions{
 	font-size:1.2em;
@@ -187,7 +187,6 @@ body{
 .carousel-caption p{
 	color:rgb(0,0,0) !important;
 }
-
 .portraits{
 	text-align:center;background-color:#F0F0F0;border-radius:15px;
 }
@@ -196,7 +195,7 @@ body{
 	box-sizing:border-box;
 	padding:15px 5px 15px 5px;
 	border-radius:15px;
-	transition: border 1s, box-shadow 1s;
+	transition: border 1s, box-shadow 1s;height:100%;
 }
 
 .toplist{
@@ -247,7 +246,8 @@ width:100%;padding-bottom:15px;width:90%;margin:0 auto;
 	border:solid 2px #000;
 	
 }
-.portraits > div:hover{border:solid 2px #000;box-shadow: 1px 1px 12px 3px #ccc; }
+.portraits{border:solid 2px rgba(0,0,0,0);transition: all 1s;}
+.portraits:hover{border:solid 2px #000;box-shadow: 1px 1px 12px 3px #ccc; }
 .portraits:hover .citrus-description{}
 .portraits:hover .citrus-button{border:solid 2px #000;}
 .portraits:hover .photo{border:solid 2px #000;}
@@ -277,7 +277,7 @@ background-image:url('http://www.irscstudentweb.org/~J13006325/joomla/templates/
 background-image:url('http://www.irscstudentweb.org/~J13006325/joomla/templates/newcitrus/images/scientist.jpg');background-size: 100% 100%;
 }
 
-.citrus-description{width:70%;margin:0 auto;font-size:1.0em;line-height:1.3em;font-weight:500;text-align:center;margin-top:10px;transition:width .5s;}
+.citrus-description{letter-spacing:.25px;width:75%;margin:0 auto;font-size:1.0em;line-height:1.3em;font-weight:500;text-align:center;margin-top:10px;transition:width .5s;}
 .quote-box{width:100% !important; margin:0 auto !important;padding:0;display:table;line-height:3.2em;/*background-image:url('citrusfruit.jpg');background-size:100% 140%;*/}
 .quote-box > div{width:100%;display:table-cell;vertical-align:middle;text-align:center;height:100%;font-size:3em;font-weight:100;}
 .vertical-align{
@@ -395,7 +395,13 @@ background-image:url('http://www.irscstudentweb.org/~J13006325/joomla/templates/
 	.bottomli{
 		width:150px;
 	}
-
+	.portrait-row-fluid{
+		display:flex;
+	}
+	.portraits{
+		align-items: stretch;
+flex: 1;       
+	}
 }
 
 .nav li a{font-size:1.1em;}
