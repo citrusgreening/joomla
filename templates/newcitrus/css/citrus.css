@@ -410,3 +410,7 @@ color:rgb(0,170,125) !important;
 	background:none !important;
 }
 
+.dropdown-menu:before {
+	content:none;
+	
+}

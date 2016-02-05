@@ -121,7 +121,7 @@ else
 	. ($task ? ' task-' . $task : ' no-task')
 	. ($itemid ? ' itemid-' . $itemid : '')
 	. ($params->get('fluidContainer') ? ' fluid' : '');
-?>">
+?>" style="border:none !important;">
 
 	<!-- Body -->
 
@@ -138,7 +138,7 @@ else
 			</div>
 		</div>
 		<div class="row-fluid">
-			<div class="span12 hiddenc" id="citrus-menu"style="">
+			<div class="span12 hiddenc" id="citrus-menu" style="">
 <div class = "navbar navbar" style="margin:0;border-radius:0px;width:100% !important">
 	<div class = "navbar-inner" style="border-radius:0px;margin:0 !important;padding:0 !important">
 			<div class = "nav-collapse in collapse" style="height:auto;" >
