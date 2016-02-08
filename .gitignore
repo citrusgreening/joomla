@@ -1,2 +1,5 @@
 config.php
 configuration.php
+logs/
+tmp/
+.htaccess

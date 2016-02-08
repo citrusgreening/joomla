@@ -418,3 +418,28 @@ color:rgb(0,170,125) !important;
 	content:none;
 	
 }
+ none;
+		text-align: center;
+	}
+	.bottomli{
+		width:150px;
+	}
+	.portrait-row-fluid{
+		display:flex;
+	}
+	.portraits{
+		align-items: stretch;
+flex: 1;       
+	}
+}
+
+.nav li a{font-size:1.1em;}
+.dropdown li a:hover{
+color:rgb(0,170,125) !important;
+	background:none !important;
+}
+
+.dropdown-menu:before {
+	content:none;
+	
+}
