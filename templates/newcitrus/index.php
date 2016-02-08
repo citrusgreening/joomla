@@ -134,7 +134,7 @@ else
 					<a href="https://www.facebook.com/citrusgreening"><img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/facebook.png" alt="Custom image" class="customImage" /></a>
 				</div>
 				<img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/hamburger.jpg"  onclick="hideMenu()" alt="Custom image" id="hamburger1"/>
-				<a href="http://irscstudentweb.org/~J13006325/joomla/"><img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/citruslogo.png" alt="Custom image" id="logo" /></a>
+				<a href="/"><img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/citruslogo.png" alt="Custom image" id="logo" /></a>
 			</div>
 		</div>
 		<div class="row-fluid">
@@ -148,7 +148,7 @@ else
 						<ul class = "dropdown-menu">
 							<li><a class="white" href = "#">About Us</a></li>
 							<li><a class="white" href = "#">Partners</a></li>
-							<li><a class="white" href = "http://irscstudentweb.org/~J13006325/joomla/index.php/contact-us">Contact</a></li>
+							<li><a class="white" href = "/index.php/contact-us">Contact</a></li>
 							<li><a class="white" href = "https://twitter.com/citrusgreening">Twitter</a></li>
 							<li><a class="white" href = "https://www.facebook.com/citrusgreening">Facebook</a></li>
 						</ul>
@@ -170,8 +170,8 @@ else
 					<li><a class="white" href = "https://www.citrusgreening.org">Research</a></li>
 
 
-					<li><a class="white" href = "http://irscstudentweb.org/~J13006325/joomla/index.php/blog">Blog</a></li>
-					<li><a class="white" href = "http://irscstudentweb.org/~J13006325/joomla/index.php/news">News</a></li>
+					<li><a class="white" href = "/index.php/blog">Blog</a></li>
+					<li><a class="white" href = "/index.php/news">News</a></li>
 				</ul>
 			</div>
 	</div>
