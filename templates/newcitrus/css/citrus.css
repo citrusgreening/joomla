@@ -180,6 +180,12 @@ body{
 }
 .carousel-caption{
 	background-color:rgba(255,255,255,.7) !important;
+	width:20%;
+	top:30px;
+	height:auto;
+	bottom:auto;
+	left:12.5%;
+	border-radius:15px;
 }
 .carousel-caption h4{
 	color:rgb(0,0,0) !important;
@@ -197,7 +203,11 @@ body{
 	border-radius:15px;
 	transition: border 1s, box-shadow 1s;height:100%;
 }
-
+.footer-bold{
+	margin-bottom:20px;
+	margin-top:20px;
+	text-align:left;
+}
 .toplist{
 	border-bottom: solid 1px #000;
 }
@@ -209,7 +219,9 @@ body{
 	color:#000 !important;
 
 }
-
+.indent{
+	text-indent: 50px;
+}
 .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {
 background-color:#fff !important;
 }
@@ -240,7 +252,7 @@ width:100%;padding-bottom:15px;width:90%;margin:0 auto;
 
 }
 .photo{
-	margin:0 auto;padding:0;width:45%;padding-bottom:40%;background-color:#fff;border-radius:50%;border:solid 2px rgba(255,0,0,0);transition:border 1s;
+	margin:0 auto;padding:0;width:45%;background-color:#fff;border-radius:50%;border:solid 2px rgba(255,0,0,0);transition:border 1s;max-width:175px;
 }
 .photo:hover{
 	border:solid 2px #000;
@@ -267,15 +279,7 @@ width:100%;padding-bottom:15px;width:90%;margin:0 auto;
 .news-blog-header:hover{
 	color:rgb(0,170,125) !important;
 }
-.consumer{
-background-image:url('http://www.irscstudentweb.org/~J13006325/joomla/templates/newcitrus/images/girl1.jpg');background-size: 100% 100%;
-}
-.grower{
-background-image:url('http://www.irscstudentweb.org/~J13006325/joomla/templates/newcitrus/images/farmer.jpg');background-size: 100% 100%;
-}
-.scientist{
-background-image:url('http://www.irscstudentweb.org/~J13006325/joomla/templates/newcitrus/images/scientist.jpg');background-size: 100% 100%;
-}
+
 
 .citrus-description{letter-spacing:.25px;width:75%;margin:0 auto;font-size:1.0em;line-height:1.3em;font-weight:500;text-align:center;margin-top:10px;transition:width .5s;}
 .quote-box{width:100% !important; margin:0 auto !important;padding:0;display:table;line-height:3.2em;/*background-image:url('citrusfruit.jpg');background-size:100% 140%;*/}
