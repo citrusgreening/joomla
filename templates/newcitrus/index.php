@@ -156,13 +156,13 @@ else
 					<li class = "dropdown">
 						<a class = "white dropdown-toggle" data-toggle = "dropdown" href = "#">Consumers<i class = "caret"></i></a>
 						<ul class = "dropdown-menu">
-							<li><a class="white" href = "<?php echo $this->baseurl; ?>/index.php?option=com_content&view=article&id=65&catid=2&Itemid=101">FAQ</a></li>
+							<li><a class="white" href = "<?php echo $this->baseurl; ?>/index.php/consumer-faq">FAQ</a></li>
 						</ul>
 					</li>
 					<li class = "dropdown">
 						<a class = "white dropdown-toggle" data-toggle = "dropdown" href = "#">Growers<i class = "caret"></i></a>
 						<ul class = "dropdown-menu">
-							<li><a class="white" href = "<?php echo $this->baseurl; ?>/index.php?option=com_content&view=article&id=66&catid=2&Itemid=101">FAQ</a></li>
+							<li><a class="white" href = "<?php echo $this->baseurl; ?>/index.php/grower-information">Information</a></li>
 						</ul>
 					</li>
 					<li><a class="white" href = "https://www.citrusgreening.org">Research</a></li>
