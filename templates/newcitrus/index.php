@@ -121,7 +121,7 @@ else
 	. ($task ? ' task-' . $task : ' no-task')
 	. ($itemid ? ' itemid-' . $itemid : '')
 	. ($params->get('fluidContainer') ? ' fluid' : '');
-?>" style="border:none !important;">
+?>" style="border:none !important;background-image:url(<?php echo $this->baseurl ?>/templates/<?php echo $this->template;?>/images/background.jpg)">
 
 	<!-- Body -->
 
@@ -221,7 +221,7 @@ else
 				<jdoc:include type="modules" name="top" style="xhtml" />
 			</div>
 				<div class="row-fluid" style="border-top:solid 1px;border-color:#ddd;padding:15px;box-sizing:border-box;">
-		<div class="span4">
+		<div class="span4 citrus-solutions">
 			<h4 class="footer-bold">Citrus Greening Solutions</h4>
 			<p>We present a systems-based pipeline approach for delivering commercial, grove-deployable solutions using a novel therapeutic delivery strategy and citrus transgenics. </p>
 		</div>

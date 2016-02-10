@@ -1,19 +1,18 @@
 
 
 body{
-	background: url(http://www.irscstudentweb.org/~J13006325/joomla/templates/newcitrus/images/background4.jpg) no-repeat center center fixed !important; 	
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover !important;
+	background-size: 100% 100%;
+
 	padding:0 !important;
 	margin:0 !important;
 	overflow-y:scroll;
+	background-repeat:no-repeat;
 }
 #logo{position:relative;top:4px;width:195px;}
 .citrus-container{
 	width:70%;
 	margin:0 auto;
+
 }
 .row-fluid{
 	background-color:#fff;
@@ -43,7 +42,7 @@ body{
 	.citrus-container{
 		width:100%;
 	}
-		.solutions{
+	.solutions{
 		font-size:1.1em;
 		text-align:center;
 		padding:10px 10px !important;
@@ -51,15 +50,12 @@ body{
 	.portraits{
 		margin-bottom:15px !important;
 	}
-	
-.background-box-outer{
-	width:100%;top:0;position:absolute;top:0px;z-index:2;
-
-}
-.background-box-inner{
-	position:relative;background-color:#fff;height:100vh;width:100%;margin: 0 auto;overflow:hidden;
-
-}	
+	.background-box-outer{
+		width:100%;top:0;position:absolute;top:0px;z-index:2;
+	}
+	.background-box-inner{
+		position:relative;background-color:#fff;height:100vh;width:100%;margin: 0 auto;overflow:hidden;
+	}	
 	.news-blog > div{
 		width:100% !important;
 		margin:auto;
@@ -102,7 +98,7 @@ body{
 @media only screen and (min-width: 816px) {
 
 	.news-blog > div{
-		width:90% !important;
+		width:100% !important;
 		margin:auto;
 
 	}
@@ -124,11 +120,16 @@ body{
 .active{
 	background-color:#fa0 !important;
 }
+.citrus-slide img{
+width:100%;
+height:350px;
+
+}
 
 @media only screen and (max-width:530px){
 	#socialmediacontainer{
-		top:0px !important;
-		right:6px !important;
+		top:2px !important;
+		right:2px !important;
 	}
 	#socialmediacontainer a img{
 		margin:3px !important;
@@ -180,7 +181,7 @@ body{
 }
 .carousel-caption{
 	background-color:rgba(255,255,255,.7) !important;
-	width:20%;
+	width:30%;
 	top:30px;
 	height:auto;
 	bottom:auto;
@@ -225,6 +226,10 @@ body{
 .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {
 background-color:#fff !important;
 }
+.latestnews{
+	margin-left:10px;
+
+}
 .dropdown-menu{
 	background-color:#fff !important;
 	padding:0px !important;
@@ -245,14 +250,14 @@ background-color:#fff !important;
 	text-align:center;padding:3px;
 }
 .news-blog > div{
-width:100%;padding-bottom:15px;width:90%;margin:0 auto;
+padding-bottom:15px;
 }
 .landing-page-portrait{
 	background-color:rgba(254,248,233,1);
 
 }
 .photo{
-	margin:0 auto;padding:0;width:45%;background-color:#fff;border-radius:50%;border:solid 2px rgba(255,0,0,0);transition:border 1s;max-width:175px;
+	margin:0 auto;padding:0;width:45%;border-radius:50%;border:solid 2px rgba(0,0,0,0);transition:border 1s;max-width:175px;
 }
 .photo:hover{
 	border:solid 2px #000;
@@ -275,11 +280,15 @@ width:100%;padding-bottom:15px;width:90%;margin:0 auto;
 }
 .news-blog-header{
 	transition: color .5s;
+
 }
 .news-blog-header:hover{
 	color:rgb(0,170,125) !important;
+	
 }
-
+.news-blog a{
+	text-decoration:none !important;
+}
 
 .citrus-description{letter-spacing:.25px;width:75%;margin:0 auto;font-size:1.0em;line-height:1.3em;font-weight:500;text-align:center;margin-top:10px;transition:width .5s;}
 .quote-box{width:100% !important; margin:0 auto !important;padding:0;display:table;line-height:3.2em;/*background-image:url('citrusfruit.jpg');background-size:100% 140%;*/}
@@ -327,6 +336,7 @@ width:100%;padding-bottom:15px;width:90%;margin:0 auto;
 }
 .item-page{	
 	padding:35px;
+	padding-top:15px;
 		box-sizing:border-box;
 }
 .categories-list{	
@@ -371,7 +381,10 @@ width:100%;padding-bottom:15px;width:90%;margin:0 auto;
 	margin-top:15px;
 }
 
+.news-row-fluid{
+padding: 17px 25px; box-sizing: border-box;
 
+}
 
 
 /*IMPORT*/
@@ -379,8 +392,22 @@ width:100%;padding-bottom:15px;width:90%;margin:0 auto;
 
 
 .navbar-inverse .nav li.dropdown.open>.dropdown-toggle,.navbar-inverse .nav li.dropdown.active>.dropdown-toggle,.navbar-inverse .nav li.dropdown.open.active>.dropdown-toggle{background-color:transparent !important;color:#ffffff;}
+.news-line{display:none;}
 
+@media only screen and (max-width: 480px) {
 
+	.carousel-caption{
+		width:94%;
+		border-radius:0;
+		opacity:1;
+		background-color:#eee !important;
+		height:80px;
+
+	}
+	.citrus-slide img{
+		height:200px;
+	}
+}
 @media only screen and (min-width: 767px) {
 	.navbar-nav {
 		margin: 0 auto;
@@ -404,7 +431,24 @@ width:100%;padding-bottom:15px;width:90%;margin:0 auto;
 		align-items: stretch;
 		flex: 1;       
 	}
+	.news-row-fluid{
+		display:flex;
+	}
+	.news-line{
+		align-items: stretch;
+		flex: auto;      
+		width:1px !important;
+		background-color:#000;
+		margin-left:2.5%;
+		margin-top:45px;
+		margin-bottom:45px;
+		display:block;
 
+	}
+	
+	.citrus-solutions{
+		padding-left:20px;
+	}
 
 	.nav li a{font-size:1.1em;}
 	.dropdown li a:hover{
@@ -444,3 +488,8 @@ width:100%;padding-bottom:15px;width:90%;margin:0 auto;
 	color:#000;
 
 }
+.dropdown-menu:after {
+    border: none !important;
+    content: "" !important;
+}
+ .navbar .nav > li > .dropdown-menu:before { border-bottom: none; } 
