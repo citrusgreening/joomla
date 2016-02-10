@@ -164,9 +164,7 @@ height:350px;
 }
 .citrus-slide{
 	width:100%;
-	border-bottom: solid 1px #000;
-	border-left: solid 1px #000;
-	border-right: solid 1px #000;
+
 	box-sizing:border-box;
 }
 #socialmediacontainer{position:absolute;top:8px;right:8px;}
