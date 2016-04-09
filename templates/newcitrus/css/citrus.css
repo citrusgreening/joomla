@@ -1,8 +1,17 @@
 
 
+@font-face {
+  
+
+}
+
+body *{
+ font-family: 'Source Sans Pro', sans-serif;
+
+}
 body{
 
-
+ font-size:14px;
 	padding:0 !important;
 	margin:0 !important;
 	overflow-y:scroll;
@@ -11,19 +20,17 @@ body{
 
 }
 
-#logo{position:relative;top:4px;width:195px;}
+#logo{position:relative;top:5px;left:5px;height:55px;}
 .citrus-container{
-	width:70%;
 	margin:0 auto;
-
 }
 .row-fluid{
 	background-color:#fff;
 }
 
 .jumbotron0{
-	background-color:#fff;
-	text-align:center;
+	background-color:#f0f0f0;
+	text-align:left;
 	padding-top:0px;padding-bottom:0px;
 	position:relative;
 	z-index:4;
@@ -31,7 +38,7 @@ body{
 	height:65px;
 	
 }
-.jumbotron0 img{width:240px;}
+
 .bottomli a{color:#000;}
 .news-blog-header{
 	border-radius:15px;	
@@ -40,7 +47,10 @@ body{
 	min-height:200px;
 }
 
+.background-box-inner{
+	background-color:#f0f0f0;
 
+}
 @media only screen and (max-width: 767px) {
 	.citrus-container{
 		width:100%;
@@ -57,20 +67,24 @@ body{
 		width:100%;top:0;position:absolute;top:0px;z-index:2;
 	}
 	.background-box-inner{
-		position:relative;background-color:#fff;height:100vh;width:100%;margin: 0 auto;overflow:hidden;
+		position:relative;height:100vh;width:100%;margin: 0 auto;overflow:hidden;
 	}	
 	.news-blog > div{
 		width:100% !important;
 		margin:auto;
 
 	}
-
-	
+	.full-screen-menu{
+	display:none;
+	}
+	#hamburger1{
+	display:block !important;
+	}
 }
 
 .toplist{
 	margin-bottom:0 !important;
-	background-color:#fff;
+	background-color:#f0f0f0;
 }
 @media only screen and (max-width: 980px) {
 	.hiddenc{margin-top:-271px;}
@@ -78,6 +92,7 @@ body{
 		position:relative;
 		transition:top 1s,margin-top 1s !important;
 	}
+
 
 }
 @media only screen and (min-width: 980px) {
@@ -89,7 +104,7 @@ body{
 			transition:top 1s, margin-top 10s !important;
 		}
 	#citrus-menu{
-		position:absolute !important;
+		position:absolute;
 		width:70%;
 		top:61px;
 		z-index:3;
@@ -99,20 +114,35 @@ body{
 }
 
 @media only screen and (min-width: 816px) {
-
-	.news-blog > div{
-		width:100% !important;
-		margin:auto;
-
-	}
-
-
 	.background-box-outer{
 		width:100%;top:0;position:absolute;top:0px;z-index:2;
 
 	}
 	.background-box-inner{
-		position:relative;background-color:#fff;height:100vh;width:70%;margin: 0 auto;overflow:hidden;
+		position:relative;height:100vh;width:85%;margin: 0 auto;overflow:hidden;
+
+	}
+	.citrus-container{
+		width:85% !important;
+
+		padding:0;
+		margin:0 auto;
+	}
+}
+@media only screen and (min-width: 1340px) {
+	.background-box-outer{
+		width:100%;top:0;position:absolute;top:0px;z-index:2;
+
+	}
+	.background-box-inner{
+		position:relative;height:100vh;width:1150px;margin: 0 auto;overflow:hidden;
+
+	}
+	.citrus-container{
+		width:1150px !important;
+
+		padding:0;
+		margin:0 auto;
 	}
 }
 
@@ -125,69 +155,86 @@ body{
 }
 .citrus-slide img{
 width:100%;
-height:350px;
-
 }
-
-@media only screen and (max-width:530px){
-	#socialmediacontainer{
-		top:2px !important;
-		right:2px !important;
-	}
-	#socialmediacontainer a img{
-		margin:3px !important;
-		width:27px !important;
-		margin-bottom:0px;
-		display:block;
-	}
-	.twitter{
-	}
-	.container{
-		min-width:255px;
-	}
-	#logo{
-		transform:scale(.75,.75);
-		margin-left:25px;
-	}
-}
-@media only screen and (max-width:348px){
-	#logo{
-		transform:scale(.65,.65);
-	}
-}
-
 
 #content{
 	padding:0px;
-
-
 }
 .citrus-slide{
 	width:100%;
-
+	margin: 0 auto;
 	box-sizing:border-box;
+	border-bottom: solid 1px #000;
+	margin-bottom:15px;
+	overflow:hidden;
 }
-#socialmediacontainer{position:absolute;top:8px;right:8px;}
-#socialmediacontainer img{width:35px;margin-top:7px;}
+.carousel-control{
+	margin-top:0;
+	top:44%;
 
-#hamburger1{width:30px;height:20px;padding:7px;position:absolute;left:13px;top:15px;cursor:pointer;border-radius:3px;border: solid 1px #000;}
-.main-carousel{z-index:1;}
+}
+.feed ul{
+	list-style-type:none;
+	margin:10px 0 0 10px;
+
+}
+.feed ul a{
+	font-weight:700;
+}
+
+.social-media{
+
+}
+.social-media img{
+	width:35px;
+	margin-top:7px;
+}
+.full-screen-menu{
+	position:absolute;
+	right:15px;
+	top:20px;
+	background-color:#fa0;
+	border-radius:15px;
+	padding: 5px 25px 5px 25px;
+	font-weight:600;
+}
+.full-screen-menu span{
+	margin-left:6px;
+	margin-right:6px;
+}
+.full-screen-menu  span a{
+	color:#000 !important;
+}
+#hamburger1{
+	width:30px;
+	height:20px;
+	padding:7px;
+	position:absolute;
+	right:13px;
+	top:15px;
+	cursor:pointer;
+	border-radius:3px;
+	display:none;
+}
+.main-carousel{
+	z-index:1;
+}
 .solutions{
 	font-size:1.2em;
 	text-align:center;
 	padding:5px 75px 15px 75px;
 	box-sizing:border-box;
 	line-height:1.5em;
-
 }
 .carousel-caption{
-	background-color:rgba(255,255,255,.7) !important;
+	background-color:rgba(255,255,255,.9) !important;
 	width:30%;
 	top:30px;
 	height:auto;
 	bottom:auto;
 	left:12.5%;
 	border-radius:15px;
+	border: solid 1px #000;
 }
 .carousel-caption h4{
 	color:rgb(0,0,0) !important;
@@ -196,7 +243,7 @@ height:350px;
 	color:rgb(0,0,0) !important;
 }
 .portraits{
-	text-align:center;background-color:#F0F0F0;border-radius:15px;
+	text-align:center;background-color:#f0f0f0;border-radius:15px;
 }
 .portraits > div{
 	border:2px solid rgba(0,0,0,0);
@@ -215,21 +262,18 @@ height:350px;
 }
 .toplist > li a:hover{
 	color:rgb(0,170,125) !important;
-
 }
 .toplist > li a{
 	color:#000 !important;
-
 }
 .indent{
 	text-indent: 50px;
 }
 .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {
-background-color:#fff !important;
+	background-color:#fff !important;
 }
 .latestnews{
 	margin-left:10px;
-
 }
 .dropdown-menu{
 	background-color:#fff !important;
@@ -240,10 +284,14 @@ background-color:#fff !important;
 	border:solid 1px #000;
 	width:100% !important;
 	font-weight:400 !important;
+	min-width:0px;
+}
+.dropdown-menu li{
+	width:100% !important;
+	margin:0 !important;
 }
 @media (max-width: 979px){
 	.nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a {
-
 		font-weight:400 !important;
 	}
 }
@@ -252,6 +300,12 @@ background-color:#fff !important;
 }
 .news-blog > div{
 padding-bottom:15px;
+}
+.news-blog span a{
+	position:relative;
+	top:-6px;
+	font-size:1.1em;
+	line-height:1.5em;
 }
 .landing-page-portrait{
 	background-color:rgba(254,248,233,1);
@@ -264,21 +318,20 @@ padding-bottom:15px;
 	border:solid 2px #000;
 	
 }
-.portraits{border:solid 2px rgba(0,0,0,0);transition: all 1s;}
+.portraits{border:solid 2px rgba(0,0,0,0);transition: border 1s, box-shadow 1s;}
 .portraits:hover{border:solid 2px #000;box-shadow: 1px 1px 12px 3px #ccc; }
 .portraits:hover .citrus-description{}
 .portraits:hover .citrus-button{border:solid 2px #000;}
 .portraits:hover .photo{border:solid 2px #000;}
-
-
-
 
 .citrus-button{
 	width:76%;margin:0 auto;background-color:#fa0;border-radius:15px;font-size:1.1em;font-weight:bold;margin-top:10px;padding:3px;
 	box-sizing:border-box !important;
 	border: 2px solid rgba(0,0,0,0);
 	transition:border 1s;
+	color:#000;
 }
+
 .news-blog-header{
 	transition: color .5s;
 
@@ -292,17 +345,14 @@ padding-bottom:15px;
 }
 
 .citrus-description{letter-spacing:.25px;width:75%;margin:0 auto;font-size:1.0em;line-height:1.3em;font-weight:500;text-align:center;margin-top:10px;transition:width .5s;}
-.quote-box{width:100% !important; margin:0 auto !important;padding:0;display:table;line-height:3.2em;/*background-image:url('citrusfruit.jpg');background-size:100% 140%;*/}
-.quote-box > div{width:100%;display:table-cell;vertical-align:middle;text-align:center;height:100%;font-size:3em;font-weight:100;}
 .vertical-align{
     text-align: center;
     white-space: nowrap;
-
 	overflow:auto;
 	width:100%;
 	margin:0;
 	padding:0;	
-		position:absolute;
+	position:absolute;
 	
 }
 .vertical-align:before{
@@ -313,7 +363,6 @@ padding-bottom:15px;
     height: 100vh;
 	margin-right:-4px;
 	text-align:center;
-
 }
 .something-semantic {
   width: 100%;
@@ -387,26 +436,22 @@ padding: 17px 25px; box-sizing: border-box;
 
 }
 
-
-/*IMPORT*/
-
-
-
 .navbar-inverse .nav li.dropdown.open>.dropdown-toggle,.navbar-inverse .nav li.dropdown.active>.dropdown-toggle,.navbar-inverse .nav li.dropdown.open.active>.dropdown-toggle{background-color:transparent !important;color:#ffffff;}
 .news-line{display:none;}
 
 @media only screen and (max-width: 480px) {
 
 	.carousel-caption{
-		width:94%;
+		width:100%;
+		border:solid 1px #000;
 		border-radius:0;
 		opacity:1;
 		background-color:#eee !important;
-		height:80px;
+		height:100px;
+		box-sizing:border-box;
 
 	}
 	.citrus-slide img{
-		height:200px;
 	}
 }
 @media only screen and (min-width: 767px) {
@@ -449,6 +494,9 @@ padding: 17px 25px; box-sizing: border-box;
 	
 	.citrus-solutions{
 		padding-left:20px;
+	}
+	.citrus-solutions p{
+		margin-top:8px;
 	}
 
 	.nav li a{font-size:1.1em;}

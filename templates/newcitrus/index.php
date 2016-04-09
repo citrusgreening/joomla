@@ -112,7 +112,7 @@ else
 		<script src="<?php echo JUri::root(true); ?>/media/jui/js/html5.js"></script>
 	<![endif]-->
 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template;?>/css/citrus.css" type="text/css" />
-<link rel="shortcut icon" type="image/x-icon" href="<?php echo $this->baseurl ?>/images/cg/favicon.png">
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 </head>
 
 <body class="site <?php echo $option
@@ -126,54 +126,63 @@ else
 	<!-- Body -->
 
 	<div class="body" style="position:relative;z-index:4;">
-		<div class="container-fluid  citrus-container">
+		<div class="container-fluid citrus-container">
 		 <div class="row-fluid" style="z-index:2;margin-top:-3px;">
 			<div class="span12 jumbotron0">
-				<div id="socialmediacontainer">
-					<a href="https://twitter.com/citrusgreening"><img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/twitter.png" alt="Custom image" class="customImage" /></a>
-					<a href="https://www.facebook.com/citrusgreening"><img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/facebook.png" alt="Custom image" class="customImage" /></a>
-				</div>
 				<img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/hamburger.jpg"  onclick="hideMenu()" alt="Custom image" id="hamburger1"/>
 				<a href="<?php echo $this->baseurl; ?>"><img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/citruslogo.png" alt="Custom image" id="logo" /></a>
+			<div class="full-screen-menu">
+				<span><a href="#">About</a></span>
+				<span><a class="white" href = "<?php echo $this->baseurl; ?>/index.php/contact-us">Contact</a></span>
+				<span><a class="white" href = "<?php echo $this->baseurl; ?>/index.php/consumer-faq">Consumers</a></span>
+				<span><a class="white" href = "<?php echo $this->baseurl; ?>/index.php/grower-information">Growers</a></span>
+				<span><a class="white" href = "https://www.citrusgreening.org">Research</a></span>
+
+				<span><a class="white" href = "<?php echo $this->baseurl; ?>/index.php/blog">Blog</a></span>
+				<span><a class="white" href = "<?php echo $this->baseurl; ?>/index.php/news">News</a></span>			
+		
+			
+			</div>
+
 			</div>
 		</div>
 		<div class="row-fluid">
-			<div class="span12 hiddenc" id="citrus-menu" style="">
-<div class = "navbar navbar" style="margin:0;border-radius:0px;width:100% !important">
-	<div class = "navbar-inner" style="border-radius:0px;margin:0 !important;padding:0 !important">
-			<div class = "nav-collapse in collapse" style="height:auto;" >
-				<ul class = "nav navbar-nav toplist">
-					<li class = "dropdown">
-						<a class = "white dropdown-toggle" data-toggle = "dropdown" href = "#">About<i class = "caret"></i></a>
-						<ul class = "dropdown-menu">
-							<li><a class="white" href = "#">About Us</a></li>
-							<li><a class="white" href = "#">Partners</a></li>
-							<li><a class="white" href = "<?php echo $this->baseurl; ?>/index.php/contact-us">Contact</a></li>
-							<li><a class="white" href = "https://twitter.com/citrusgreening">Twitter</a></li>
-							<li><a class="white" href = "https://www.facebook.com/citrusgreening">Facebook</a></li>
-						</ul>
-					</li>
-					<li class = "dropdown">
-						<a class = "white dropdown-toggle" data-toggle = "dropdown" href = "#">Consumers<i class = "caret"></i></a>
-						<ul class = "dropdown-menu">
-							<li><a class="white" href = "<?php echo $this->baseurl; ?>/index.php/consumer-faq">FAQ</a></li>
-						</ul>
-					</li>
-					<li class = "dropdown">
-						<a class = "white dropdown-toggle" data-toggle = "dropdown" href = "#">Growers<i class = "caret"></i></a>
-						<ul class = "dropdown-menu">
-							<li><a class="white" href = "<?php echo $this->baseurl; ?>/index.php/grower-information">Information</a></li>
-						</ul>
-					</li>
-					<li><a class="white" href = "https://www.citrusgreening.org">Research</a></li>
+			<div class="span12 hiddenc" id="citrus-menu" >
+				<div class = "navbar navbar" style="margin:0;border-radius:0px;width:100% !important">
+					<div class = "navbar-inner" style="border-radius:0px;margin:0 !important;padding:0 !important">
+							<div class = "nav-collapse in collapse" style="height:auto;" >
+								<ul class = "nav navbar-nav toplist">
+									<li class = "dropdown">
+										<a class = "white dropdown-toggle" data-toggle = "dropdown" href = "#">About<i class = "caret"></i></a>
+										<ul class = "dropdown-menu">
+											<li><a class="white" href = "#">About Us</a></li>
+											<li><a class="white" href = "#">Partners</a></li>
+											<li><a class="white" href = "<?php echo $this->baseurl; ?>/index.php/contact-us">Contact</a></li>
+											<li><a class="white" href = "https://twitter.com/citrusgreening">Twitter</a></li>
+											<li><a class="white" href = "https://www.facebook.com/citrusgreening">Facebook</a></li>
+										</ul>
+									</li>
+									<li class = "dropdown">
+										<a class = "white dropdown-toggle" data-toggle = "dropdown" href = "#">Consumers<i class = "caret"></i></a>
+										<ul class = "dropdown-menu">
+											<li><a class="white" href = "<?php echo $this->baseurl; ?>/index.php/consumer-faq">FAQ</a></li>
+										</ul>
+									</li>
+									<li class = "dropdown">
+										<a class = "white dropdown-toggle" data-toggle = "dropdown" href = "#">Growers<i class = "caret"></i></a>
+										<ul class = "dropdown-menu">
+											<li><a class="white" href = "<?php echo $this->baseurl; ?>/index.php/grower-information">Information</a></li>
+										</ul>
+									</li>
+									<li><a class="white" href = "https://www.citrusgreening.org">Research</a></li>
 
 
-					<li><a class="white" href = "<?php echo $this->baseurl; ?>/index.php/blog">Blog</a></li>
-					<li><a class="white" href = "<?php echo $this->baseurl; ?>/index.php/news">News</a></li>
-				</ul>
-			</div>
-	</div>
-</div>
+									<li><a class="white" href = "<?php echo $this->baseurl; ?>/index.php/blog">Blog</a></li>
+									<li><a class="white" href = "<?php echo $this->baseurl; ?>/index.php/news">News</a></li>
+								</ul>
+							</div>
+					</div>
+				</div>
 			</div>
 		</div>
 			<?php if ($this->countModules('position-1')) : ?>
@@ -220,20 +229,25 @@ else
 			<div class="row-fluid">
 				<jdoc:include type="modules" name="top" style="xhtml" />
 			</div>
-				<div class="row-fluid" style="border-top:solid 1px;border-color:#ddd;padding:15px;box-sizing:border-box;">
+		<div class="row-fluid" style="border-top:solid 1px;border-color:#000;padding:15px;box-sizing:border-box;background-color:#f0f0f0;">
 		<div class="span4 citrus-solutions">
-			<h4 class="footer-bold">Citrus Greening Solutions</h4>
+			<h4 class="footer-bold" style="margin-bottom:0px !important">Citrus Greening Solutions</h4>
+			<div class="social-media">
+				<span><a href="http://twitter.com/citrusgreening"><img src="images/cg/twitter.png"></a></span>
+				<span><a href="facebook.com/citrusgreening"><img src="images/cg/facebook.png"></a></span>
+				<span><a href="citrusgreening.xml"><img src="images/cg/rss.png"></a></span>
+			</div>
 			<p>We present a systems-based pipeline approach for delivering commercial, grove-deployable solutions using a novel therapeutic delivery strategy and citrus transgenics. </p>
 		</div>
 
 		<div class="span4" style="position: relative; text-align: center;">
 			<h4 class="footer-bold">Funding Provided By:</h4>
-			<a href="http://nifa.usda.gov/"><img style="width: 75%;max-width:300px;" src="http://www.irscstudentweb.org/~J13006325/joomla/templates/newcitrus/images/usda.jpg" alt="USDA" /></a>
+			<a href="http://nifa.usda.gov/"><img style="width: 90%;max-width:220px;" src="images/cg/usda.png" alt="USDA" /></a>
 		</div>
 
 		<div class="span4" style="position: relative; text-align: center;">
 			<h4 class="footer-bold">Hosting Provided By:</h4>
-			<a href="http://bti.cornell.edu/"><img style="margin-top: 15px; width: 75%;max-width:300px;" src="http://www.irscstudentweb.org/~J13006325/joomla/templates/newcitrus/images/bti.png" alt="BTI" /></a>
+			<a href="http://bti.cornell.edu/"><img style="margin-top: 15px; width: 90%;max-width:220px;" src="images/cg/bti.png" alt="BTI" /></a>
 		</div>
 	</div>
 		</div>
