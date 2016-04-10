@@ -234,7 +234,7 @@ else
 			<h4 class="footer-bold" style="margin-bottom:0px !important">Citrus Greening Solutions</h4>
 			<div class="social-media">
 				<span><a href="http://twitter.com/citrusgreening"><img src="images/cg/twitter.png"></a></span>
-				<span><a href="facebook.com/citrusgreening"><img src="images/cg/facebook.png"></a></span>
+				<span><a href="http://facebook.com/citrusgreening"><img src="images/cg/facebook.png"></a></span>
 				<span><a href="citrusgreening.xml"><img src="images/cg/rss.png"></a></span>
 			</div>
 			<p>We present a systems-based pipeline approach for delivering commercial, grove-deployable solutions using a novel therapeutic delivery strategy and citrus transgenics. </p>
