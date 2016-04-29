@@ -229,7 +229,7 @@ else
 			<div class="row-fluid">
 				<jdoc:include type="modules" name="top" style="xhtml" />
 			</div>
-		<div class="row-fluid" style="border-top:solid 1px;border-color:#000;padding:15px;box-sizing:border-box;background-color:#f0f0f0;">
+		<div class="row-fluid" style="border-color:#000;padding:15px;box-sizing:border-box;background-color:#f0f0f0;">
 		<div class="span4 citrus-solutions">
 			<h4 class="footer-bold" style="margin-bottom:0px !important">Citrus Greening Solutions</h4>
 			<div class="social-media">
