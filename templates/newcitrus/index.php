@@ -132,7 +132,7 @@ else
 				<img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/hamburger.jpg"  onclick="hideMenu()" alt="Custom image" id="hamburger1"/>
 				<a href="<?php echo $this->baseurl; ?>"><img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/citruslogo.png" alt="Custom image" id="logo" /></a>
 			<div class="full-screen-menu">
-				<span><a href="#">About</a></span>
+				<span><a href="<?php echo $this->baseurl; ?>/index.php/partners">About</a></span>
 				<span><a class="white" href = "<?php echo $this->baseurl; ?>/index.php/contact-us">Contact</a></span>
 				<span><a class="white" href = "<?php echo $this->baseurl; ?>/index.php/consumer-faq">Consumers</a></span>
 				<span><a class="white" href = "<?php echo $this->baseurl; ?>/index.php/grower-information">Growers</a></span>
@@ -156,7 +156,7 @@ else
 										<a class = "white dropdown-toggle" data-toggle = "dropdown" href = "#">About<i class = "caret"></i></a>
 										<ul class = "dropdown-menu">
 											<li><a class="white" href = "#">About Us</a></li>
-											<li><a class="white" href = "#">Partners</a></li>
+											<li><a class="white" href = "<?php echo $this->baseurl; ?>/index.php/partners">Partners</a></li>
 											<li><a class="white" href = "<?php echo $this->baseurl; ?>/index.php/contact-us">Contact</a></li>
 											<li><a class="white" href = "https://twitter.com/citrusgreening">Twitter</a></li>
 											<li><a class="white" href = "https://www.facebook.com/citrusgreening">Facebook</a></li>
