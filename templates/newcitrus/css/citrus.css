@@ -20,7 +20,125 @@ body{
 	background-size: cover;
 
 }
+.readmore{
+	display:none;
+}
 
+/*BLOG PAGE */
+@media only screen and (min-width: 768px) {
+	.blog .item{
+		margin:5px;
+	}
+	.blog .items-row > div{
+		align-items:stretch;
+		flex:1;
+	}
+	.blog .items-row{
+		display:flex;
+
+	}
+	.blog .leading-0{
+
+	}
+	.blog .items-row{
+		margin-bottom:30px;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.blog .pull-left{
+
+		text-align:center;
+	
+	}
+	.blog .leading-0 img{
+	width:150px;
+	border-radius:15px;
+	margin-bottom:5px;
+	margin-top:0px !important;
+
+	}
+	.blog .leading-0  .page-header{
+		text-align:center !important;
+		margin-left:0px !important;
+	}
+
+}
+
+.blog .leading-0  .page-header{
+	text-align:left;
+	margin-left:170px;
+	padding-bottom:0px;
+	margin-bottom:0px;
+	
+}
+.blog .leading-0  .name{
+	float:left;
+}
+.blog .page-header{
+	text-align:center;
+	
+
+}
+.blog .leading-0{
+	margin-bottom:30px;
+	background-color:#F0F0F0;
+	padding:10px 25px 15px 25px;
+	border-radius:30px;
+	clear:both;
+	overflow: hidden; 
+	box-sizing:border-box;
+	transition: all 1s;
+	border: solid 2px rgba(0,0,0,0);
+	box-shadow: 0px 0px 0px 0px #ccc;
+}
+.blog .leading-0:hover{
+	border:solid 2px #000;
+	box-shadow: 1px 1px 12px 3px #ccc;
+
+}
+.blog a{
+	color:#555;
+font-size:18px !important;
+
+}
+.blog .item{
+	margin-bottom:30px;
+	background-color:#F0F0F0;
+	padding:25px;
+	border-radius:30px;
+	height:100%;
+	box-sizing:border-box;
+	clear:both;
+	transition: all 1s;
+	border: solid 2px rgba(0,0,0,0);
+	box-shadow: 0px 0px 0px 0px #ccc;
+}
+.blog .item:hover{
+	border:solid 2px #000;
+	box-shadow: 1px 1px 12px 3px #ccc;
+}
+.newsfeed > li > .feed-link > a{
+	color:#555;
+
+}
+.news-blog a{
+	color:#555 !important;
+}
+
+
+}
+.blog .pull-left{
+	margin-bottom:0;
+}
+
+
+.blog .leading-0 img{
+	width:150px;
+	border-radius:15px;
+	margin-bottom:5px;
+	margin-top:-40px;
+
+}
 #logo{position:relative;top:7px;left:15px;height:55px;}
 .citrus-container{
 	margin:0 auto;
@@ -418,7 +536,7 @@ padding-bottom:15px;
 }
 
 .latestnews{
-
+	margin-top:-3px;
     list-style-type: none;
 
 }
@@ -426,6 +544,7 @@ padding-bottom:15px;
 	font-weight:700;
 	font-size:1.1em;
 	line-height:1.5em;
+
 }
 
 .tab-pane{
@@ -597,6 +716,13 @@ padding: 17px 25px; box-sizing: border-box;
 	.partners-image-uw{
 		width:100%;
 	}
+	.partners-image-last{
+		width:90%;
+	}
+	.partners-image-stakeholders{
+		margin-top:15px;
+	}
+	
  }
  @media only screen and (max-width: 766px) {
 	 .partners-row{
